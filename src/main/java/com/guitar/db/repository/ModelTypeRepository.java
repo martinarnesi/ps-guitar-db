@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.guitar.db.model.ModelType;
 
 @Repository
+@Deprecated
 public class ModelTypeRepository {
 	@PersistenceContext
 	private EntityManager entityManager;
